@@ -3,7 +3,7 @@ import SelecaoController from './app/controllers/SelecaoController.js';
 
 const app = express();
 
-// indicar para o app ler boby com json
+// indicar para o app ler body com json
 app.use(express.json());
 
 //ROTAS
